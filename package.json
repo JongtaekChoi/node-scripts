@@ -1,0 +1,27 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "alarm": "bin/alarm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JongtaekChoi/node-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JongtaekChoi/node-scripts/issues"
+  },
+  "homepage": "https://github.com/JongtaekChoi/node-scripts#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "typescript": "^4.2.4"
+  }
+}
